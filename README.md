@@ -118,6 +118,3 @@ PhishGuard-AI/
 ## 📄 Lisans
 
 Bu proje [MIT Lisansı](https://www.google.com/search?q=LICENSE) altında sunulmaktadır.
-
-```
-
