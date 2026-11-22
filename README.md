@@ -121,6 +121,3 @@ Bu proje [MIT Lisansı](https://www.google.com/search?q=LICENSE) altında sunulm
 
 ```
 
-İstersen `PhishGuard-AI` GitHub deponun tam URL'sini veya kullandığın ek bir dosyayı/veri kaynağını söylersen bu taslağın içine doğrudan işleyebilirim.
-
-```
