@@ -1,0 +1,11 @@
+{
+  "dataset": "PhiUSIIL Phishing URL Dataset",
+  "uci_id": 967,
+  "total_rows": 235795,
+  "total_columns": 55,
+  "exact_duplicate_rows": 0,
+  "duplicate_url_rows": 425,
+  "conflicting_url_count": 0,
+  "sample_conflicting_urls": [],
+  "notes": "Etiket anlamı (1=Legitimate, 0=Phishing) sonraki aşamalarda sınıf dağılımı ve görsellerle doğrulanır."
+}
