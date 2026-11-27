@@ -35,24 +35,16 @@ Oltalama (*phishing*) saldırılarında URL'ler çoğu zaman meşru alan adları
 
 ## 🚀 Hızlı Başlangıç
 
-**Gereksinimler:** Git ve Python 3.10+.
+URL analizi için [Hugging Face Spaces demosunu](https://huggingface.co/spaces/alminanur/phishguard-ai) açabilirsin. Bu depo, veri denetimi ve keşif analizi için kullanılan notebook'u ve raporları içerir.
+
+**Notebook'u çalıştırmak için** Git ve Python 3.10+ gerekir.
 
 ```bash
-# 1. Depoyu klonla
-git clone [https://github.com/almina-nur/PhishGuard-AI.git](https://github.com/almina-nur/PhishGuard-AI.git)
+git clone https://github.com/almina-nur/PhishGuard-AI.git
 cd PhishGuard-AI
-
-# 2. Bağımlılıkları kur
-pip install -r requirements.txt
-
-# 3. Uygulamayı başlat
-python app.py
-
+python -m pip install -r requirements.txt notebook
+python -m notebook notebooks/01_data_audit_and_eda.ipynb
 ```
-
-Canlı arayüz ayrıca doğrudan Hugging Face Spaces üzerinden kullanılabilir:
-
-* **Canlı Demo:** [https://huggingface.co/spaces/alminanur/phishguard-ai](https://www.google.com/url?sa=E&source=gmail&q=https://huggingface.co/spaces/alminanur/phishguard-ai)
 
 ## 📊 Değerlendirme ve Mühendislik Notları
 
@@ -81,12 +73,11 @@ flowchart LR
 
 ```text
 PhishGuard-AI/
-├── app.py                        # Gradio arayüzü, tahmin akışı ve fallback mekanizması
-├── url_features.py               # URL yapısal ve sözdizimsel öznitelik çıkarımı
-├── phishguard_url_model.joblib   # Kaydedilmiş model paketi ve öznitelik listesi
-├── requirements.txt              # Python bağımlılıkları
-└── README.md                     # Proje dokümantasyonu
-
+├── notebooks/01_data_audit_and_eda.ipynb
+├── reports/figures/
+├── reports/logs/
+├── requirements.txt
+└── README.md
 ```
 
 ## ⚠️ Bilinen Sınırlamalar
@@ -114,7 +105,3 @@ PhishGuard-AI/
 ## 🤝 Katkı Sağlama
 
 Öneriler, hata bildirimleri ve pull request'ler memnuniyetle karşılanır. Büyük değişiklikler için önce bir *issue* açarak kapsamı paylaşabilirsin.
-
-## 📄 Lisans
-
-Bu proje [MIT Lisansı](https://www.google.com/search?q=LICENSE) altında sunulmaktadır.
